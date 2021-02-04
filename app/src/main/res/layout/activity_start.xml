@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Start">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:text="一、用户使用规则  \n   1.客户端必须和智能手机配合一起使用,用户必须自行配备智能手机,并自行负担手机上网(包括但不限于宽带或移动通信提供商)的通讯费、信息费等有关费用。  \n  2.用户不得在本客户端软件上传或发布任何非法性、恶意性、恐吓性、欺诈性、诽谤性、种族歧视、淫秽猥亵等不当的信息(包括但不限于任何可能侵犯他人权益、违反中国或其他国家法律或会产生民事或刑事责任之言论、资料或内容)。此外,您须对发布于本网站上之信息所产生的一切后果承担法律责任。\n  二、服务风险及免责声明
+
+        \n1.因Internet服务存在因不可抗力、移动通讯终端病毒或黑客攻击、系统不稳定、用户所在位置、用户关机以及其他任何技术、互联网络、通信线路原因等造成的服务中断、数据丢失或不能满足用户要求的风险。用户须自行承担以上风险。
+
+        \n2.因智能手机的多样性,用户的智能手机有可能并不支持此客户端软件。而对由于手机型号不相匹配所导致任何手机问题或损害,均由用户自行承担以上风险。"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/Main_start"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="我同意并继续使用应用" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
